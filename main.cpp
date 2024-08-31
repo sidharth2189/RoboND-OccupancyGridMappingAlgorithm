@@ -90,11 +90,11 @@ void visualization()
             if (l[row][col] == l0) {
                 plt::plot({ row }, { col }, "g.");
             }
-            else if (l[row][col] == lfree) {
-                plt::plot({ row }, { col }, "r.");
+            else if (l[row][col] > l0) {
+                plt::plot({ row }, { col }, "k.");
             }
             else {
-                plt::plot({ row }, { col }, "k.");
+                plt::plot({ row }, { col }, "r.");
             }
         }
     } 

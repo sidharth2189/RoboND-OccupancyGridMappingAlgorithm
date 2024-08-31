@@ -94,7 +94,7 @@ void visualization()
                 plt::plot(row, col, "r-");
             }
             else if (l[row][col] == locc) {
-                plt::plot(row, col, "b-");
+                plt::plot(row, col, "k-");
             }
         }
     } 

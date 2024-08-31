@@ -93,14 +93,14 @@ void visualization()
             else if (l[row][col] == lfree) {
                 plt::plot({ row }, { col }, "r.");
             }
-            else (l[row][col] == locc) {
+            else {
                 plt::plot({ row }, { col }, "k.");
             }
         }
     } 
     
     //TODO: Save the image and close the plot
-    plt::save("./Images/map.png");
+    plt::save("./Images/Map.png");
     plt::clf(); 
 }
 

@@ -46,9 +46,8 @@ Now, wait for the program to generate the map!
 ![alt text](Images/Map.png)
 
 #### Map Legend 
-<code style="color : Green">Green: Unkown/Undiscovered zone
-</code>
-<code style="color : Red">Red: Free zone
-</code>
-<code style="color : Black">Black: Occupied zone
-</code>
+<span style="color:Green;">Green: Unkown/Undiscovered zone </span>
+
+<span style="color:red;">Red: Free zone </span>
+
+<span style="color:Black;">Black: Occupied zone </span>

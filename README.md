@@ -45,3 +45,10 @@ Now, wait for the program to generate the map!
 
 ![alt text](Images/Map.png)
 
+#### Map Legend 
+<code style="color : Green">Green: Unkown/Undiscovered zone
+</code>
+<code style="color : Red">Red: Free zone
+</code>
+<code style="color : Black">Black: Occupied zone
+</code>
